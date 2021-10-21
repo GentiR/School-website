@@ -1,0 +1,150 @@
+#page 
+{
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+	height: 766px;
+	background-color: #011320;
+}
+#headermenu
+{
+	background:linear-gradient(rgb(37,37,37),rgb(18,18,18));
+	height: 57px;
+	width: 1000px;
+}
+#buttons
+{
+	margin-left: 50px;
+}
+#content
+{
+	background-color: #011320;
+	width: 810px;
+	height: 675px;
+}
+#footer
+{
+	width: 100%;
+	height: 80px;
+	background-color: rgb(13,13,13);
+}
+.headermenubutton
+{
+	padding-right: 104px;
+	padding-left: 38px;
+	float:left;
+	width: auto;
+	height: 55px;
+	border:none;
+	margin: 0 auto;
+	background:linear-gradient(rgb(37,37,37),rgb(18,18,18));
+	color: white;
+	align-content: center;
+	font-family: "Tahoma";
+	font-size: 12px;
+	color: #9faebd
+}
+#footertext
+{
+	font-family: "Tahoma";
+	color: rgb(95,95,95);
+	text-align: center;
+	padding-top: 30px;
+	font-size: 11px;
+	float: left;
+	padding-left: 162px;
+}
+#Fotofooter
+{
+	float: left;
+	padding-top: 40px;
+	padding-left: 49px;
+}
+button.headermenubutton:hover
+{
+	background:linear-gradient(rgb(15,75,117),rgb(13,39,57));
+}
+#text
+{
+	color: white;
+	font-family:'Times New Roman', Times, serif;
+	font-size: 35px;
+	margin-left: 210px;
+	margin-top: 25px;
+}
+#line1
+{
+	margin-left: -130px;
+	margin-top: 35px;
+}
+
+.slideshow-container {
+	max-width: 830px;
+	position: relative;
+	margin-left: 180px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	margin-left: -170px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+  }
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	margin-left: 1px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+	background-color: #717171;
+  }
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+  @keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+	.prev, .next,.text {font-size: 11px}
+  }

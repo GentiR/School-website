@@ -1,0 +1,150 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+#page
+{
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+	background-color: #011320;
+}
+#headermenu
+{
+	background:linear-gradient(rgb(37,37,37),rgb(18,18,18));
+	height: 57px;
+	width: 1000px;
+}
+#footer
+{
+	width: 100%;
+	height: 80px;
+	background-color: rgb(13,13,13);
+}
+#buttons
+{
+	margin-left: 50px;
+}
+.headermenubutton
+{
+	padding-right: 104px;
+	padding-left: 38px;
+	float:left;
+	width: auto;
+	height: 55px;
+	border:none;
+	margin: 0 auto;
+	background:linear-gradient(rgb(37,37,37),rgb(18,18,18));
+	color: white;
+	align-content: center;
+	font-family: "Tahoma";
+	font-size: 12px;
+	color: #9faebd
+}		
+button.headermenubutton:hover
+{
+	background:linear-gradient(rgb(15,75,117),rgb(13,39,57));
+}
+#content{
+	background-color: #011320;
+	width: 100%;
+}
+#textcontent
+{
+	padding-top: 15px;
+	padding-left: 380px;
+	color: #d2d1c6;
+	font-family: Tahoma;
+	font-size: 25px;
+}
+#textcontentu
+{
+	padding-top: 8px;
+	padding-left: 285px;
+	color: #d2d1c6;
+	font-family: Arial;
+	font-size: 13px;
+}
+#textcontentb
+{
+	padding-top: 10px;
+	padding-left: 355px;
+	color: #d2d1c6;
+	font-size: 30px;
+	font-family: Tahoma;
+
+}
+#textcontent1
+{
+	padding-top: 30px;
+	padding-left: 350px;
+	color: #d2d1c6;
+	font-family: Tahoma;
+	font-size: 30px;
+}
+#buttonlogin
+{
+	font-size: 20px;
+	border: none;
+	margin-left: 395px;
+	padding: 10px;
+	padding-top: 8px;
+	padding-left: 50px; 
+	border-radius: 20px;
+	color: white;
+	background-color: #73b4db;
+}
+#buttonlogin:hover
+{
+	background-color: #054469;
+}
+.spanlogin
+{
+	margin-right: 40px;
+}
+button
+{
+	outline: none;
+}
+input
+{
+	outline: none;
+}
+#footertext
+{
+	font-family: "Tahoma";
+	color: rgb(95,95,95);
+	text-align: center;
+	padding-top: 30px;
+	font-size: 11px;
+	float: left;
+	padding-left: 152px;
+}
+#Fotofooter
+{
+	float: left;
+	padding-top: 40px;
+	padding-left: 49px;
+}
+.content{
+	text-align: center;
+	padding: 1rem;
+}
+
+.content-container{
+	display: grid;
+	grid-template-columns: repeat(3 , 1fr);
+	padding: 100px 0;
+}
+
+.title{
+	color: white;
+	font-size: 1.4rem;
+}
+
+.description{
+	font-size: 1rem;
+	color: #ccc;
+}
